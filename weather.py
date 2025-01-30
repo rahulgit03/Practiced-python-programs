@@ -1,0 +1,7 @@
+T=float(input("enter"))
+if T<0: print("Freezing Weather")
+elif T in range(0,11): print("Very cold weather")
+elif T in range(10,21): print("Cold weather")
+elif T in range(20,31): print("normal")
+elif 30<=T<40: print("Hot")
+elif T<40: print("Very hot")

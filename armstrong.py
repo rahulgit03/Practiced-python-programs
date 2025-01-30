@@ -1,9 +1,10 @@
-n=371
+n=153
+l=len(str(n))
 sum=0
 for i in str(n):
-    sum+=int(i)**len(str(n))
+    sum+=int(i)**l
 if sum==n:
-    print(True)
+    print('True')
 else:
-    print(False)
+    print('False')
     
